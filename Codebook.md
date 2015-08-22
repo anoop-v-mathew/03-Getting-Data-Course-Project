@@ -59,7 +59,7 @@ Processed data contains the average of the mean and standard deviation measureme
 
 * Subject_ID - Identifier of the person who performed the experiment                      
 * Activity - Name of activity performed by subject (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, or LAYING)        
-* Averages of Mean and Standard Deviation measurements as follows               
+* Averages of Mean and Standard Deviation measurements as follows (Note that measurements are normalized and bounded within [-1,1])              
   * tBodyAcc-mean()-X               
   * tBodyAcc-mean()-Y              
   * tBodyAcc-mean()-Z               
