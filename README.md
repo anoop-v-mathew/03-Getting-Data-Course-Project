@@ -31,3 +31,6 @@ extracted measurements, grouped by subject and activity
 
 ### Pre-requisites:
   dplyr package has to be installed already  
+  
+### Source code
+  [run_analysis()](run_analysis.R)
