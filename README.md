@@ -18,12 +18,13 @@ From this dataset, it creates a new dataset which has the average of the
 extracted measurements, grouped by subject and activity
 
 ### Args:
-  dir: path to the directory containing the data (i.e., "UCI HAR Dataset"). For e.g., ```"C:\\Downloads\\UCI Har Dataset\\"```  
+  dir: path to the directory containing the data (i.e., "UCI HAR Dataset"). 
+  For e.g., ```"C:\\Downloads\\UCI Har Dataset\\"```  
        It defaults to the current directory  
 
 ### Returns:
-  The data set with the average of the extracted measurements,  
-  grouped by subject and activity  
+  The data set with the average of the extracted measurements, grouped by subject and activity  
+  See the [Codebook](Codebook.md) for more information on the returned dataset
 
 ### Sample Usage:
   ```> write.table(run_analysis(), "tidyData.txt", row.names=FALSE)```  
