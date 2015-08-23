@@ -57,9 +57,9 @@ From the raw dataset codebook:
 ##Processed data
 Processed data contains the average of the mean and standard deviation measurements grouped by the subject (identifier of the person who performed the experiment) and the activity (performed by the subject). Details of the variables are below
 
-* Subject_ID - Identifier of the person who performed the experiment (This variable has a value from 1 to 30, identifying the participant which took part in the experiment)                     
-* Activity - Name of activity performed by subject (The activities are one of the following six: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, or LAYING)        
-* Averages of Mean and Standard Deviation measurements as follows (Note that measurements are normalized and bounded within [-1,1])              
+* __Subject_ID__ - Identifier of the person who performed the experiment (This variable has a value from 1 to 30, identifying the participant which took part in the experiment)                     
+* __Activity__ - Name of activity performed by subject (The activities are one of the following six: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, or LAYING)        
+* __Averages of Mean and Standard Deviation measurements__. Note that measurements are normalized and bounded within [-1,1]. List of the relevant measurements are given below.             
   * tBodyAcc-mean()-X               
   * tBodyAcc-mean()-Y              
   * tBodyAcc-mean()-Z               
