@@ -35,3 +35,11 @@ extracted measurements, grouped by subject and activity
   
 ### Source code
   [run_analysis()](run_analysis.R)
+
+### Reading the (tidy) output dataset
+  The output of the above [run_analysis()](run_analysis.R) function has been written to a text file and uploaded to the Coursera cloud on Amazon AWS.  
+  The below R commands/script will read this dataset from the Coursera Amazon AWS cloud and display it for viewing.
+  
+```address <- "http://s3.amazonaws.com/coursera-uploads/user-d90dc16ce529e1a697359393/975115/asst-3/ec39b260490011e599352133b0c29eba.txt"```  
+```data <- read.table(url(address), header = TRUE); View(data)```  
+```View(data)```
