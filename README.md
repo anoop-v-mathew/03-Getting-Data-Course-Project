@@ -42,4 +42,3 @@ extracted measurements, grouped by subject and activity
   
 ```address <- "http://s3.amazonaws.com/coursera-uploads/user-d90dc16ce529e1a697359393/975115/asst-3/ec39b260490011e599352133b0c29eba.txt"```  
 ```data <- read.table(url(address), header = TRUE); View(data)```  
-```View(data)```
