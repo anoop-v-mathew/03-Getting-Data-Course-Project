@@ -72,11 +72,11 @@ run_analysis <- function(dir = "./") {
   names(x) <- ss$V2
   
   # read the activity labels file
-  a <- read.table(paste(dir,sep="", "activity_labels.txt"))
+  a <- read.table(paste(dir,sep="", "activity_labels.txt"), stringsAsFactors = FALSE)
   
   # merge the activity data with the activity names file 
   # so that we get descriptive names of the activity
-  y1 <- merge(y, a, by.x="V1", by.y = "V1")
+  y1 <- left_join(y, a, by="V1")
   
   # label the column names
   names(y1) <- c("ID", "Activity")  # activity id and activity name data
